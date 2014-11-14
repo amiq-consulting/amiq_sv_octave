@@ -1,0 +1,10 @@
+-uvm
++define+INCA
+
++incdir+tb
++incdir+tb/sv
++incdir+tb/top
++incdir+c
++incdir+octave
+
+tb/sv/amiq_hello_world_pkg.sv

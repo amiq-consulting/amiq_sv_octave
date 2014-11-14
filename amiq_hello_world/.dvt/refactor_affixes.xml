@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><refactorConnect>
+    <inputPortNamePrefix>pi_</inputPortNamePrefix>
+    <inputPortNameSuffix/>
+    <outputPortNamePrefix>po_</outputPortNamePrefix>
+    <outputPortNameSuffix> </outputPortNameSuffix>
+    <inputWireNamePrefix>pi_</inputWireNamePrefix>
+    <inputWireNameSuffix/>
+    <outputWireNamePrefix>po_</outputWireNamePrefix>
+    <outputWireNameSuffix/>
+    <parentWireNamePrefix>wire_</parentWireNamePrefix>
+    <parentWireNameSuffix/>
+    <wireWidth/>
+</refactorConnect>
