@@ -1,0 +1,13 @@
+-uvm
+
++incdir+tb/sv
++incdir+tb/sv/tx_agent
++incdir+tb/sv/algorithms
++incdir+tb/tc
++incdir+c
+
+tb/sv/amiq_dsp_algorithms_fp_common_pkg.sv
+tb/sv/algorithms/amiq_dsp_algorithms_fp_pkg.sv
+tb/sv/tx_agent/amiq_dsp_algorithms_fp_tx_pkg.sv
+tb/sv/amiq_dsp_algorithms_fp_env_pkg.sv
+tb/tc/amiq_dsp_algorithms_fp_test_pkg.sv
