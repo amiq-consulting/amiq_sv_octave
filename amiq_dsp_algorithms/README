@@ -1,0 +1,38 @@
+/******************************************************************************
+ * (C) Copyright 2014 AMIQ Consulting
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *******************************************************************************/
+
+* Title: DSP algorithms
+* Name: amiq_dsp_algorithms
+* Modified: 14 October 2014
+* Support: office@amiq.com
+* Description: Implementation of some of DSP algorithms(FFT, DCT, FIR and convolution) in Octave using fixed point
+ 
+* This directory contains:
+ README  : this file
+ c/      : all C++ files of C/C++ bridge
+ octave/ : all Octave files of Octave bridge
+ sim/    : demo scripts of amiq_dsp__algorithms example
+ tb/     : all SV files of amiq_dsp__algorithms example
+ tb/sv/  : all SV files used to create the DSP algorithm environment
+ tb/sv/algorithms : all SV files in which the DSP algorithms are implemented
+ tb/sv/tx_agent   : all SV files of tx agent used to create items
+ tb/tc/  : all SV files for amiq_dsp__algorithms tests
+ tb/top/ : testbench of amiq_dsp_algorithms example
+ 
+ 
+ * To demo : run sim/amiq_dsp_algorithms_demo.sh with proper options
+ * E.g.    : ./amiq_dsp_algorithms_demo.sh -t amiq_dsp_algorithms_simple_test -s 1 -sim irun -opt no -gui yes
+ 

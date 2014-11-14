@@ -1,0 +1,15 @@
+-uvm
+
++incdir+tb/sv
++incdir+tb/sv/tx_agent
++incdir+tb/sv/algorithms
++incdir+tb/tc
++incdir+c
++incdir+c/sv_oct_bridge
++incdir+octave
+
+tb/sv/amiq_dsp_algorithms_common_pkg.sv
+tb/sv/algorithms/amiq_dsp_algorithms_pkg.sv
+tb/sv/tx_agent/amiq_dsp_algorithms_tx_pkg.sv
+tb/sv/amiq_dsp_algorithms_env_pkg.sv
+tb/tc/amiq_dsp_algorithms_test_pkg.sv
