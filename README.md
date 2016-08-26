@@ -2,7 +2,7 @@ amiq_sv_octave
 ==============
 
 Examples of how to connect System Verilog with Octave
-
+[AMIQ Blog related article](http://www.amiq.com/consulting/2014/11/21/how-to-connect-systemverilog-with-octave/)
 
 This repository contains the following projects:
 
